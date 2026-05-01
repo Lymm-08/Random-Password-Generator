@@ -1,67 +1,68 @@
 ```markdown
-# Gerador de Senhas Aleatórias 🔐
+# Random Password Generator 🔐
 
-Projeto em Python para gerar senhas aleatórias personalizadas.  
-Agora com **interface gráfica (Tkinter)** e também opção de uso no **terminal (CLI)**.
-
----
-
-## ✨ Funcionalidades
-- Escolher tamanho da senha
-- Incluir letras, números e símbolos
-- Salvar senhas em arquivo `.txt`
-- Histórico de senhas geradas
-- Copiar senha para área de transferência
+Python project to generate customized random passwords.  
+Now with a **graphical interface (Tkinter)** and also a **terminal (CLI)** option.
 
 ---
 
-## 🚀 Como rodar
+## ✨ Features
+- Choose password length
+- Include letters, numbers, and symbols
+- Save passwords to a `.txt` file
+- History of generated passwords
+- Copy password to clipboard
 
-### 1. Criar e ativar ambiente virtual
+---
+
+## 🚀 How to Run
+
+### 1. Create and activate virtual environment
 ```bash
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1   # no PowerShell
+.\.venv\Scripts\Activate.ps1   # on PowerShell
 ```
 
-### 2. Instalar dependências
+### 2. Install dependencies
 ```bash
 pip install pyperclip
 ```
 
-### 3. Executar programa
+### 3. Run the program
 ```bash
 python main.py
 ```
-## 🎞️ Demonstração
+
+## 🎞️ Demonstration
 
 ![Demonstração do programa](GeradorSenhasAleatorias/imagens/demo.gif)
 ---
 
-## 📊 Exemplo de uso (Interface Gráfica)
-1. Digite o tamanho da senha.  
-2. Marque se quer letras, números e símbolos.  
-3. Clique em **Gerar Senha**.  
-4. Use os botões para salvar, copiar ou ver histórico.  
+## 📊 Example Usage (Graphical Interface)
+1. Enter the desired password length.  
+2. Select whether to include letters, numbers, and symbols.  
+3. Click **Generate Password**.  
+4. Use the buttons to save, copy, or view history.  
 
 ---
 
-## 📟 Exemplo de uso (Terminal/CLI)
+## 📟 Example Usage (Terminal/CLI)
 ```
-=== Gerador de Senhas Aleatórias ===
-Digite o tamanho da senha: 12
-Incluir letras? (s/n): s
-Incluir números? (s/n): s
-Incluir símbolos? (s/n): n
+=== Random Password Generator ===
+Enter password length: 12
+Include letters? (y/n): y
+Include numbers? (y/n): y
+Include symbols? (y/n): n
 
-Sua senha gerada é:
+Your generated password is:
 a9BfK2LmQwXz
 ```
 
 ---
 
-## 🔮 Próximos Passos
-- Melhorar interface gráfica (cores, estilos, responsividade).
-- Adicionar opção de escolher onde salvar o arquivo.
-- Criar versão com PyQt para interface mais avançada.
-- Implementar exportação de senhas em diferentes formatos (JSON, CSV).
+## 🔮 Next Steps
+- Improve graphical interface (colors, styles, responsiveness).
+- Add option to choose where to save the file.
+- Create a PyQt version for a more advanced interface.
+- Implement password export in different formats (JSON, CSV).
 ```
