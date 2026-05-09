@@ -1,12 +1,12 @@
 ```markdown
-# Random Password Generator 🔐
+# Random Password Generator 
 
 Python project to generate customized random passwords.  
 Now with a **graphical interface (Tkinter)** and also a **terminal (CLI)** option.
 
 ---
 
-## ✨ Features
+##  Features
 - Choose password length
 - Include letters, numbers, and symbols
 - Save passwords to a `.txt` file
@@ -15,7 +15,7 @@ Now with a **graphical interface (Tkinter)** and also a **terminal (CLI)** optio
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Create and activate virtual environment
 ```bash
@@ -46,7 +46,7 @@ python main.py
 
 ---
 
-## 📟 Example Usage (Terminal/CLI)
+##  Example Usage (Terminal/CLI)
 ```
 === Random Password Generator ===
 Enter password length: 12
@@ -60,7 +60,7 @@ a9BfK2LmQwXz
 
 ---
 
-## 🔮 Next Steps
+##  Next Steps
 - Improve graphical interface (colors, styles, responsiveness).
 - Add option to choose where to save the file.
 - Create a PyQt version for a more advanced interface.
