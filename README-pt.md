@@ -36,8 +36,7 @@ python main.py
 ---
 
 ## Demonstração
-
-`[Parece que o resultado não era seguro para exibição. Vamos mudar as coisas e tentar outra opção!]`
+![Demonstração do programa](GeradorSenhasAleatorias/imagens/demo.gif)
 
 ---
 
